@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background color */
+.html{
+    background-color: aliceblue;
+}
+
+
+/* left side coding */
+.left{
+    
+    padding: 25px;
+    margin-left:80px ;
+}
+.left h1{
+    font-size:40px;
+    
+}
+
+.left span{
+    background-color: #5243C0;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    
+}
+
+
+/* main content  ---also left side*/
+main{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 65px;
+    align-items: center;  
+}
+
+ul{
+    display: flex;
+}
+.color{
+color: gray;
+    padding: 15px;
+}
+.color:hover{
+    color:black;
+    text-decoration-color: #8071D0;
+    text-decoration: underline;
+    
+}
+
+
+.login{
+    color:#8071D0;
+    background-color:#FFD8DB;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+}
+
+.new{
+    display: flex;
+    align-items: center;
+    
+}
+/* coding for Card1 */
+
+.container1{
+ display: flex;
+    margin-top:15%;
+    
+    
+}
+.card1{
+    background-color:rgba(241, 227, 227, 0.854);
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+}
+.card1:hover{
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+.card1:hover .grey1{
+display: none;
+}
+.card1:hover .blue1{
+display: inline;
+}
+.blue1{
+    display: none;
+}
+.content1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.content1 span{
+    background-color:#FED7DA;
+    height: 10px;
+    width: 25px;
+    border-radius: 15px;
+    padding-right:10px 20px;
+}
+
+/* coding for card2 */
+
+.container2{
+    display: flex;
+       
+       
+   }
+.card2{
+    background-color:rgba(241, 227, 227, 0.854);
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+}
+.card2:hover{
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+.card2:hover .grey2{
+display: none;
+}
+.card2:hover .blue2{
+display: inline;
+}
+.blue2{
+    display: none;
+}
+.content2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.content2 span{
+    background-color:#FD6534;
+    height: 10px;
+    width: 25px;
+    border-radius: 15px;
+    padding-right:10px 20px;
+}
+
+/* coding for card3 */
+.container3{
+    display: flex;
+      
+       
+   }
+.card3{
+    background-color:rgba(241, 227, 227, 0.854);
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+}
+.card3:hover{
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+.card3:hover .grey3{
+display: none;
+}
+.card3:hover .blue3{
+display: inline;
+}
+.blue3{
+    display: none;
+}
+.content3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.content3 span{
+    background-color: #9ED095;
+    height: 10px;
+    width: 25px;
+    border-radius: 15px;
+    padding-right:10px 20px;
+}
+
+/* coding for card4 */ 
+
+.container4{
+    display: flex;
+       
+       
+   }
+.card4{
+    background-color:rgba(241, 227, 227, 0.854);
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+}
+.card4:hover{
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+.card4:hover .grey4{
+display: none;
+}
+.card4:hover .blue4{
+display: inline;
+}
+.blue4{
+    display: none;
+}
+.content4{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+
+.content4 span{
+    background-color:#FFE4A0;
+    height: 10px;
+    width: 25px;
+    border-radius: 15px;
+    padding-right:10px 20px;
+}
+
+/* right side coding */
+.right{
+    padding:25px ;
+    margin-right: 20px;
+}
+.right img{
+    height: 400px;
+    width: 400px;
+}
